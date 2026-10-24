@@ -53,7 +53,7 @@ a {
 }
 
 .section-header{
-    alignment-baseline: var(--section-header-align);
+    text-align: var(--section-header-align);
 }
 
 .section-tagline {
