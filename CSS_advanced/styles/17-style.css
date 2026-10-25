@@ -371,8 +371,8 @@ template {
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
-    --section-pading: 5rem 0;
-    --section-header-padding: 0 0 3 rem;
+    --section-padding: 5rem 0;
+    --section-header-padding: 0 0 3rem;
     --section-body-padding: 0 0 3rem;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
@@ -430,42 +430,30 @@ a:active{
 }
 
 
-.section{
-    padding-bottom: var(--section-pading);
-    padding-left: var(--section-pading);
-    padding-top: var(--section-pading);
-    padding-right: var(--section-pading);
+.section {
+    padding: var(--section-padding);
 }
 
-.section-header{
+.section-header {
     text-align: var(--section-header-align);
-    padding-bottom: var(--section-header-pading);
-    padding-left: var(--section-header-padding);
-    padding-top: var(--section-header-padding);
-    padding-right: var(--section-header-padding);
+    padding: var(--section-header-padding);
 }
 
-.section-title{
+.section-body {
+    padding: var(--section-body-padding);
+}
+
+.section-footer {
+    text-align: var(--section-footer-align);
+    padding: var(--section-footer-padding);
+}
+
+.section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
     color: var(--section-title-color);
-}
-
-.section-body{
-    padding-bottom: var(--section-body-padding);
-    padding-left: var(--section-body-padding);
-    padding-top: var(--section-body-padding);
-    padding-right: var(--section-body-padding);
-}
-
-.section-footer{
-    text-align: var(--section-footer-align);
-    padding-bottom: var(--section-footer-padding);
-    padding-left: var(--section-footer-padding);
-    padding-top: var(--section-footer-padding);
-    padding-right: var(--section-footer-padding);
 }
 
 .section-tagline {
@@ -475,15 +463,12 @@ a:active{
     font-weight: var(--font-weight-bold);
 }
 
-.container{
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
+.container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.footer{
-    padding-bottom: var(--footer-padding);
-    padding-left: var(--footer-padding);
-    padding-top: var(--footer-padding);
-    padding-right: var(--footer-padding);
+.footer {
+    padding: var(--footer-padding);
 }
