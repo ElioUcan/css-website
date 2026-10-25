@@ -455,7 +455,7 @@ a:active{
 .card-services a:hover{
   color: var(--color-white);
   background-color: var(--color-primary);
-  text-transform: none;
+  text-decoration: none;
 }
 
 .section {
