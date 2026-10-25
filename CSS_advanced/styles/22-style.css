@@ -389,8 +389,8 @@ template {
 
 [data-section-theme="dark"]{
   --text-color: var(--color-white);
-  --section-title-color: var(var(--color-white))
-  background-color: var(--color-black)
+  --section-title-color: var(--color-white);
+  background-color: var(--color-black);
 }
 
 *, *::before, *::after {
