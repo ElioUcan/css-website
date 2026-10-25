@@ -483,7 +483,7 @@ a:active{
   text-decoration: none;
 }
 
-.card-testimonial::selection{
+.card-testimonial{
   text-align: center;
 }
 
@@ -493,7 +493,7 @@ a:active{
   height: 10rem;
 }
 
-.card-quote cite.card-testimonial{
+.card-testimonial .card-quote cite{
   display: block;
   top: 1rem;
   color: var(--color-primary);
