@@ -644,16 +644,13 @@ ul.row{
   padding: var(--header-padding);
 }
 
-.header-logo a{
-  display: var(--header-logo-link-display);
-  position: var(--header-logo-link-position);
-  top: var(--header-logo-link-top);
-  left: var(--header-logo-link-left);
+.header-logo{
+  position: var(--header-logo-position);
 }
 
 .header-logo a{
   display: var(--header-logo-link-display);
   position: var(--header-logo-link-position);
-  left: var(--header-logo-link-left);
   top: var(--header-logo-link-top);
+  left: var(--header-logo-link-left);
 }
